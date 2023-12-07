@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hải Sản Hoàng Gia</string>
+    <string name="your_string_here">
+        This is an <u>underline</u>.
+    </string>
+    <string-array name="searchSP">
+        <item>Tom hum</item>
+        <item>Cua hoang de</item>
+        <item>Ca bon</item>
+        <item>Cua Ca Mau</item>
+        <item>Ca ngu</item>
+    </string-array>
+</resources>
+

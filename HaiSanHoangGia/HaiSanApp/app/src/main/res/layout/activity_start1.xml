@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B0F68"
+    tools:context=".Start1Activity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/img1"
+        android:src="@drawable/ellipse_1"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        />
+    <ImageView
+        android:layout_width="@dimen/_37sdp"
+        android:layout_height="@dimen/_37sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/logotron"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:layout_marginStart="@dimen/_33sdp"
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        android:text="Hải sản tươi sống"
+        android:textColor="#FFFF00"
+        android:textSize="@dimen/_30sdp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_25sdp"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        android:text="An toàn - chất lượng - ngon rẻ"
+        android:textColor="#FFFF00"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_25sdp"
+        />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        />
+    <TextView
+        android:id="@+id/tvBatdau"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Shopping Now"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/img2"
+        android:layout_marginBottom="@dimen/_50ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginStart="@dimen/_25ssp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:background="@drawable/back_tv"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

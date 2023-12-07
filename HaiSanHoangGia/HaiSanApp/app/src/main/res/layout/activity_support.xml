@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#FFFF33"
+    tools:context=".activities.SupportActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CHĂM SÓC KHÁCH HÀNG"
+        android:layout_marginBottom="50dp"
+        android:textColor="#0000cc"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính sách giao hàng"
+        android:layout_marginBottom="30dp"
+        android:textColor="#0000cc"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_expand_circle_down_24"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính sách đổi trả"
+        android:layout_marginBottom="30dp"
+        android:textColor="#0000cc"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_expand_circle_down_24"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính sách về bảo mật thông tin"
+        android:textColor="#0000cc"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_expand_circle_down_24"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính sách khách hàng thân thiết"
+        android:textColor="#0000cc"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_expand_circle_down_24"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Phương thức thanh toán"
+        android:textColor="#0000cc"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_expand_circle_down_24"
+
+        />
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="61dp"
+        android:padding="5dp"
+        android:layout_margin="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yt" />
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ig" />
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tiktok" />
+        <ImageView
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zalo" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bct" />
+
+
+</LinearLayout>
